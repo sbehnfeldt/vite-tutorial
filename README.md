@@ -8,5 +8,17 @@ $> mkdir vite-prj
 $> cd vite-prj
 $> npm install --save-dev vite
 $> git init .
+```
+Add scripts to the composer.json file:
+```json
+{
+  "scripts": {
+    "dev": "vite dev"
+  }
+}
+```
 
+# Dev Server
+```shell
+$> npm run dev
 ```
